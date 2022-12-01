@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ЦКУ</title>
+    <link rel="icon" href="favicon.png" sizes="32x32">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<!--     <main>
+        <div class="bg">
+            <svg width="100" height="auto" viewBox="0 0 1613 5249" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1012.5 2.5C1012.5 2.5 525.28 200.002 318.5 446.5C51.4511 764.843 2.5 1462.5 2.5 1462.5C2.5 1462.5 609.296 1448.8 924.5 1635.5C1233.35 1818.44 1512.5 2342 1512.5 2342C1512.5 2342 833.338 2543.62 522 2846C261.565 3098.94 36 3638.5 36 3638.5C36 3638.5 684.443 3590.07 1020 3786C1332.26 3968.32 1609.5 4500 1609.5 4500C1609.5 4500 934.653 4499.62 582 4707.5C322.572 4860.43 31.5 5247.5 31.5 5247.5" 
+                stroke="black" 
+                stroke-dasharray="22 22"
+                stroke-width="3"/>
+            </svg>
+                
+            <div class="ball">
+                <img src="/img/main/airplane.png" alt="">
+            </div>
+        </div>
+    </main> -->
+
+    <!-- header -->
+    <header class="header">
+        <div class="wrapper">
+            <div class="container_header">
+                <div class="header_logo">
+                    <div class="header_logo_img">
+                        <a class="logo_img_link" href="index.html">
+                            <img src="img/logo/logo.svg" alt="logo">
+                        </a>
+                    </div>
+                </div>
+                <nav class="header_navigation">
+                    <div class="header_navigation_list" id="headMenu">
+                        <ul class="navigation_list">
+                            <li>
+                                <a href="index.html">
+                                    Главная
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/corp-travel.html">
+                                    Туры
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Услуги
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    О компании
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/blog.html">
+                                    Блог
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/contacts.html">
+                                    Контакты
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="header_contacts">
+                    <div class="header_contacts_phone">
+                        <a href="tel:+79801922024">+7 (980) 192-20-24</a>
+                    </div>
+                </div>
+                <div class="mob_menu_burger" onclick="javascript:menuOpen()" id="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- main section-->
+    <section class="main">
+        <div class="wrapper">
+            <div class="container_main">
+                <div class="container_main_cta">
+                    <div class="main_cta_title">
+                        <h1>Центр корпоративных услуг</h1>
+                    </div>
+                    <div class="main_cta_description">
+                        <p>
+                            – Ваш надежный партнер в сфере делового туризма
+                        </p>
+                    </div>
+                </div>
+                <div class="container_main_visual">
+                    <div class="main_visual_img">
+                        <img src="/img/main/main_home.png" alt="main_img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- service section -->
+    <section class="service">
+        <div class="wrapper">
+            <div class="container_service">
+                <div class="title">
+                    <h2>Предоставляемые услуги</h2>
+                </div>
+                <div class="container_service_row">
+                    <!-- item -->
+                    <div class="service_item blue service_item_bottom">
+                        <div class="service_item_img">
+                            <img src="/img/service/tour.png" alt="Корпоративный выезд в любую точку планеты">
+                        </div>
+                        <div class="service_item_description">
+                            <h5>
+                                Корпоративный выезд в любую точку планеты
+                            </h5>
+                            <div class="service_item_link">
+                                <a href="/corp-travel.html">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- item -->
+                    <div class="service_item green service_item_top">
+                        <div class="service_item_img">
+                            <img src="/img/service/education.png" alt="Корпоративный выезд в любую точку планеты">
+                        </div>
+                        <div class="service_item_description">
+                            <h5>
+                                Обучение персонала и экскурсионная программа по всей России
+                            </h5>
+                            <div class="service_item_link">
+                                <a href="/corp-education.html">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- item -->
+                    <div class="service_item fiol service_item_bottom">
+                        <div class="service_item_img">
+                            <img src="/img/service/meeting.png" alt="Корпоративный выезд в любую точку планеты">
+                        </div>
+                        <div class="service_item_description">
+                            <h5>
+                                Собрание, форум или конференция
+                            </h5>
+                            <div class="service_item_link">
+                                <a href="#">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- item -->
+                    <div class="service_item orang service_item_top">
+                        <div class="service_item_img">
+                            <img src="/img/service/apartment.png" alt="Корпоративный выезд в любую точку планеты">
+                        </div>
+                        <div class="service_item_description">
+                            <h5>
+                                Тур с пользой. Отдохни и выбери себе квартиру в Питере!
+                            </h5>
+                            <div class="service_item_link">
+                                <a href="#">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- information section -->
+    <section class="information">
+        <div class="paragraph">
+            <span class="circle_one"></span>
+            <span class="circle_two"></span>
+            <span class="circle_thre"></span>
+        </div>
+        <div class="wrapper">
+            <div class="container_information">
+                <div class="title">
+                    <h2>Почему выбирают именно нас?</h2>
+                </div>
+                <div class="container_information_row">
+                    <!-- item -->
+                    <div class="information_item">
+                        <div class="information_item_img">
+                            <img src="/img/information/1.png" alt="">
+                        </div>
+                        <div class="information_item_description">
+                            <p>
+                                Работаем с полной отдачей, заряженные на результат! 
+                                Мы за долгосрочное партнерство, поэтому положительные эмоции получают все, 
+                                даже те, на кого возложены обязанности по организации корпоративного мероприятия.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- item -->
+                    <div class="information_item">
+                        <div class="information_item_img">
+                            <img src="/img/information/2.png" alt="">
+                        </div>
+                        <div class="information_item_description">
+                            <p>
+                                Берем на себя всю работу: покупка авиабилетов, подбор гостиницы, составление программы, поиск бизнес тренера. 
+                                И принимаем окончательное решение только после вашего согласия.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- item -->
+                    <div class="information_item">
+                        <div class="information_item_img">
+                            <img src="/img/information/3.png" alt="">
+                        </div>
+                        <div class="information_item_description">
+                            <p>
+                                Четкий контроль реализации программы: вопросы заселения, тайминг каждой части программы, работа с гидами, кафе и многое другое. 
+                                Вы будете спокойны в надежных руках нашего специалиста.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- item -->
+                    <div class="information_item">
+                        <div class="information_item_img">
+                            <img src="/img/information/4.png" alt="">
+                        </div>
+                        <div class="information_item_description">
+                            <p>
+                                Многолетний опыт и позитивный настрой дает преимущества быстрого реагирования в форс мажорных ситуациях. 
+                                Не бывает безвыходных ситуаций. Бывают ситуации, выход из которых тебя не устраивает.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- item -->
+                    <div class="information_item">
+                        <div class="information_item_img">
+                            <img src="/img/information/5.png" alt="">
+                        </div>
+                        <div class="information_item_description">
+                            <p>
+                                Знаем как порадовать низкой ценой! Самые конкурентные цены на рынке - от 50 000 с человека.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- program section -->
+    <section class="program">
+        <div class="paragraph">
+            <span class="circle_one"></span>
+            <span class="circle_two"></span>
+            <span class="circle_thre"></span>
+        </div>
+        <div class="wrapper">
+            <div class="container_program">
+                <div class="title">
+                    <h2>Наши готовые программы корпоративных туров</h2>
+                </div>
+                <div class="container_program_row">
+                    <!-- item -->
+                    <div class="program_item">
+                        <div class="program_item_img">
+                            <a href="/Tour-inner-page.html">
+                                <img src="/img/program/img_1.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="program_item_body">
+                            <div class="program_item_body-title">
+                                <h4>Тур в Абхазию</h4>
+                            </div>
+                            <div class="program_item_body-info">
+                                <p>Длительность</p>
+                                <p>5 дней</p>
+                            </div>
+                        </div>
+                        <div class="program_item_submit">
+                            <a href="/Tour-inner-page.html">Цена: 80 000 руб/чел</a>
+                        </div>
+                    </div>
+                    <!-- item -->
+                    <div class="program_item">
+                        <div class="program_item_img">
+                            <a href="/Tour-inner-page.html">
+                                <img src="/img/program/img_1.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="program_item_body">
+                            <div class="program_item_body-title">
+                                <h4>Тур в Абхазию</h4>
+                            </div>
+                            <div class="program_item_body-info">
+                                <p>Длительность</p>
+                                <p>5 дней</p>
+                            </div>
+                        </div>
+                        <div class="program_item_submit">
+                            <a href="/Tour-inner-page.html">Цена: 80 000 руб/чел</a>
+                        </div>
+                    </div>
+                    <!-- item -->
+                    <div class="program_item">
+                        <div class="program_item_img">
+                            <a href="/Tour-inner-page.html">
+                                <img src="/img/program/img_1.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="program_item_body">
+                            <div class="program_item_body-title">
+                                <h4>Тур в Абхазию</h4>
+                            </div>
+                            <div class="program_item_body-info">
+                                <p>Длительность</p>
+                                <p>5 дней</p>
+                            </div>
+                        </div>
+                        <div class="program_item_submit">
+                            <a href="/Tour-inner-page.html">Цена: 80 000 руб/чел</a>
+                        </div>
+                    </div>
+                    <!-- item -->
+                    <div class="program_item">
+                        <div class="program_item_img">
+                            <a href="/Tour-inner-page.html">
+                                <img src="/img/program/img_1.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="program_item_body">
+                            <div class="program_item_body-title">
+                                <h4>Тур в Абхазию</h4>
+                            </div>
+                            <div class="program_item_body-info">
+                                <p>Длительность</p>
+                                <p>5 дней</p>
+                            </div>
+                        </div>
+                        <div class="program_item_submit">
+                            <a href="/Tour-inner-page.html">Цена: 80 000 руб/чел</a>
+                        </div>
+                    </div>
+                    <!-- item -->
+                    <div class="program_item">
+                        <div class="program_item_img">
+                            <a href="/Tour-inner-page.html">
+                                <img src="/img/program/img_1.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="program_item_body">
+                            <div class="program_item_body-title">
+                                <h4>Тур в Абхазию</h4>
+                            </div>
+                            <div class="program_item_body-info">
+                                <p>Длительность</p>
+                                <p>5 дней</p>
+                            </div>
+                        </div>
+                        <div class="program_item_submit">
+                            <a href="/Tour-inner-page.html">Цена: 80 000 руб/чел</a>
+                        </div>
+                    </div>
+                    <!-- item -->
+                    <div class="program_item">
+                        <div class="program_item_img">
+                            <a href="/Tour-inner-page.html">
+                                <img src="/img/program/img_1.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="program_item_body">
+                            <div class="program_item_body-title">
+                                <h4>Тур в Абхазию</h4>
+                            </div>
+                            <div class="program_item_body-info">
+                                <p>Длительность</p>
+                                <p>5 дней</p>
+                            </div>
+                        </div>
+                        <div class="program_item_submit">
+                            <a href="/Tour-inner-page.html">Цена: 80 000 руб/чел</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="container_program-section_button">
+                    <a href="/corp-travel.html">Все программы</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- positiv section -->
+    <section class="positiv">
+        <div class="paragraph">
+            <span class="circle_one"></span>
+            <span class="circle_two"></span>
+            <span class="circle_thre"></span>
+        </div>
+        <div class="wrapper">
+            <div class="container_positiv">
+                <div class="title">
+                    <h2>Польза корпоративных туров</h2>
+                </div>
+                <div class="container_positev_row">
+                    <!-- item -->
+                    <div class="positiv_item">
+                        <div class="positiv_item_title">
+                            <h6>
+                                Поднять мотивацию и вовлеченность сотрудников
+                            </h6>
+                        </div>
+                        <div class="positiv_item_description">
+                            <p>
+                                Путешествия как награда, мотивируют сильнее, чем деньги, а эмоции остаются навсегда! 
+                                При этом корпоративный отдых зачастую обходится дешевле, чем выплата премий.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- item -->
+                    <div class="positiv_item">
+                        <div class="positiv_item_title">
+                            <h6>
+                                Отметить корпоративный праздник
+                            </h6>
+                        </div>
+                        <div class="positiv_item_description">
+                            <p>
+                                Банкетом в ресторане уже никого не удивишь. 
+                                А вот выездное мероприятие с интересной программой запомниться надолго!
+                            </p>
+                        </div>
+                    </div>
+                    <!-- item -->
+                    <div class="positiv_item">
+                        <div class="positiv_item_title">
+                            <h6>
+                                Усилить лояльность клиентов и партнеров
+                            </h6>
+                        </div>
+                        <div class="positiv_item_description">
+                            <p>
+                                Совместные путешествия с бизнес партнерами сплотят 
+                                Вас и привяжут партнера сильнее любого другого способа!
+                            </p>
+                        </div>
+                    </div>
+                    <!-- item -->
+                    <div class="positiv_item">
+                        <div class="positiv_item_title">
+                            <h6>
+                                Сплотить команду
+                            </h6>
+                        </div>
+                        <div class="positiv_item_description">
+                            <p>
+                                Красивые места, совместные приключения и переживания 
+                                превратят малознакомых коллег в дружную рабочую команду!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- cta section -->
+    <section class="cta">
+        <div class="wrapper">
+            <div class="container_cta">
+                <div class="title">
+                    <h2>
+                        Составим индивидуальный тур под вашу организацию
+                    </h2>
+                </div>
+                <div class="container_cta_row">
+                    <div class="cta_description">
+                        <p>
+                            Все программы приведены в качестве примеров и могут быть изменены под ваши потребности. 
+                            Добавить или убрать любые активности, изменить длительность, выбрать другой вариант размещения - абсолютно все возможно.
+                        </p>
+                        <p>
+                            Услугами корпоративного туризма могут воспользоваться любые компании, независимо от направления работы и численности сотрудников.
+                        </p>
+                    </div>
+                    <div class="cta_form">
+                        <form action="#">
+                            <div class="cta_form_input">
+                                <div class="form_input">
+                                    <label for="">Имя *</label>
+                                    <input type="text">
+                                </div>
+                                <div class="form_input">
+                                    <label for="">Телефон *</label>
+                                    <input type="text">
+                                </div>
+                                <div class="form_input">
+                                    <label for="">ИНН</label>
+                                    <input type="text">
+                                </div>
+                            </div>
+                            <button type="submit">Отправить</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- blog section -->
+    <section class="blog">
+        <div class="wrapper">
+            <div class="container_blog">
+                <div class="title">
+                    <h2>
+                        Полезная информация
+                    </h2>
+                </div>
+                <div class="container_blog_row">
+                    <!-- item -->
+                    <div class="blog_item">
+                        <div class="blog_item_img">
+                            <a href="/single-blog.html">
+                                <img src="/img/blog/blog_img.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="blog_item_title">
+                            <h4>
+                                Название статьи
+                            </h4>
+                        </div>
+                        <div class="blog_item_link">
+                            <a href="/single-blog.html">Подробнее</a>
+                        </div>
+                    </div>
+                    <!-- item -->
+                    <div class="blog_item">
+                        <div class="blog_item_img">
+                            <a href="/single-blog.html">
+                                <img src="/img/blog/blog_img.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="blog_item_title">
+                            <h4>
+                                Название статьи
+                            </h4>
+                        </div>
+                        <div class="blog_item_link">
+                            <a href="/single-blog.html">Подробнее</a>
+                        </div>
+                    </div>
+                    <!-- item -->
+                    <div class="blog_item">
+                        <div class="blog_item_img">
+                            <a href="/single-blog.html">
+                                <img src="/img/blog/blog_img.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="blog_item_title">
+                            <h4>
+                                Название статьи
+                            </h4>
+                        </div>
+                        <div class="blog_item_link">
+                            <a href="/single-blog.html">Подробнее</a>
+                        </div>
+                    </div>
+                    <!-- item -->
+                    <div class="blog_item">
+                        <div class="blog_item_img">
+                            <a href="/single-blog.html">
+                                <img src="/img/blog/blog_img.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="blog_item_title">
+                            <h4>
+                                Название статьи
+                            </h4>
+                        </div>
+                        <div class="blog_item_link">
+                            <a href="/single-blog.html">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+                <a class="blog_all_link" href="/blog.html">Читать все статьи</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <div class="wrapper">
+            <div class="container_footer">
+                <div class="footer_lvl_one">
+                    <!-- блок ссылок в футере -->
+                    <div class="footer_item">
+                        <ul class="item_footer_list">
+                            <li>
+                                <a href="/corp-travel.html">Туры</a>
+                                <ul>
+                                    <li>
+                                        <a href="/Tour-inner-page.html">Абхазия</a>
+                                    </li>
+                                    <li>
+                                        <a href="/Tour-inner-page.html">Байкал</a>
+                                    </li>
+                                    <li>
+                                        <a href="/Tour-inner-page.html">Сочи</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- блок ссылок в футере -->
+                    <div class="footer_item">
+                        <ul class="item_footer_list">
+                            <li>
+                                <a href="#">Услуги</a>
+                                <ul>
+                                    <li>
+                                        <a href="#">Организация мероприятий</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Обучение</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Недвижемость</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- логотип в футере -->
+                    <div class="footer_logo">
+                        <div class="footer_logo_img">
+                            <a href="index.html">
+                                <img src="/img/logo/logo.svg" alt="logo">
+                            </a>
+                        </div>
+                    </div>
+                    <!-- бло ссылок в футере -->
+                    <div class="footer_item">
+                        <ul class="item_footer_list">
+                            <li>
+                                <a href="#">О компании</a>
+                                <ul>
+                                    <li>
+                                        ИНН 024201995370
+                                    </li>
+                                    <li>
+                                        ИП Чиркова М.П
+                                    </li>
+                                    <li>
+                                        Адрес: Санкт-Петербург, <br>Пр.Славы, д.41к3
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- блок ссылок в футере -->
+                    <div class="footer_item">
+                        <ul class="item_footer_list">
+                            <li>
+                                <a href="#">Контакты</a>
+                                <ul>
+                                    <li>
+                                        <a href="#">+1 43 984 65 11 23</a>
+                                    </li>
+                                    <li>
+                                        Санкт-Петербург
+                                    </li>
+                                    <li>
+                                        <a href="#">info@goweb.pro</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- второй уровень футера -->
+                <div class="footer_lvl_two">
+                    <div class="footer__copyrigth">
+                        <p>© ИП Чиркова Мария Петровна</p>
+                        <a href="#">Политика конфиденциальности</a>
+                    </div>
+                    <div class="footer_social">
+                        <div class="goweb_link">
+                            Made by <a href="https://goweb.pro">GoWeb.Pro</a>
+                        </div>
+                        <div class="social_link">
+                            <a href="#"><img src="/img/social/vk.svg" alt=""></a>
+                            <a href="#"><img src="/img/social/instagram.svg" alt=""></a>
+                            <a href="#"><img src="/img/social/youtube.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Connecting Page Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js" integrity="sha256-huW7yWl7tNfP7lGk46XE+Sp0nCotjzYodhVKlwaNeco=" crossorigin="anonymous"></script>
+    <script src="/js/script.js"></script>
+</body>
+</html>
