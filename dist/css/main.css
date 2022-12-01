@@ -1,0 +1,172 @@
+/* USER SETTINGS */
+:root {
+  /* Colors Setting */
+  --clr-priamry: #0ba360;
+  --clr-secondary: #3cba92;
+
+  /* Fonts Settings */
+  --ff-system: -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+  --ff-primary: "Roboto", sans-serif;
+
+  --fs-300: 12px;
+  --fs-400: 16px;
+  --fs-500: 20px;
+  --fs-600: 32px;
+
+  --fw-400: 400;
+  --fw-700: 700;
+}
+
+/* CONNECTIONG FONTS */
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/roboto-regular.woff") format("woff"), url("../fonts/roboto-regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/roboto-regular-italic.woff") format("woff"),
+    url("../fonts/roboto-regular-italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/roboto-bold.woff") format("woff"), url("../fonts/roboto-bold.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/roboto-bold-italic.woff") format("woff"), url("../fonts/roboto-bold-italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* MINIMUM CSS RESET */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+body {
+  text-rendering: optimizeSpeed;
+  line-height: 1.4;
+}
+
+ul[role="list"],
+ol[role="list"] {
+  list-style: none;
+}
+
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+img,
+picture,
+svg {
+  max-width: 100%;
+  display: block;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* BASE STYLES */
+body {
+  font-size: var(--fs-400);
+  font-weight: var(--fw-400);
+  font-family: var(--ff-primary);
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main {
+  flex: 1 1 auto;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  width: min(100%, 1240px);
+}
+
+/* USER STYLES */
+.bg {
+  position: relative;
+  width: 90vw;
+  height: 500vh;
+  margin: 0 auto;
+  background: goldenrod;
+}
+
+.bg svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: auto;
+  height: 100%;
+}
+.ball {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #0ba360;
+  position: absolute;
+}
+
+/* MEDIA QUERIES */
+@media screen and (min-width: 320px) {
+}
+
+@media screen and (min-width: 480px) {
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 1024px) {
+}
+
+@media screen and (min-width: 1280px) {
+}
+
+@media screen and (min-width: 1440px) {
+}
+
