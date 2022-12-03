@@ -465,7 +465,7 @@ footer{
 .social_link a:nth-child(3){
     margin-left: 20px;
 }
-/* ОБЩИЕ КЛАССЫ */
+/* obshie klass */
 .title h2{
     font-family: 'Jura';
     font-style: normal;
@@ -808,7 +808,7 @@ section.blog{
     color: #171717;
     text-decoration: none;
 }
-/* самолет */
+/* samolet */
 
 .bg {
     position: relative;
@@ -1061,7 +1061,7 @@ section.breadcrumbs{
     font-size: 18px;
     color: inherit;
 }
-/* внутренние страницы */
+/* vnutrennie page */
 .page_title_cta_title h1{
     font-family: 'Jura';
     font-style: normal;
@@ -1237,7 +1237,7 @@ section.contacts{
     font-size: 28px;
     padding-bottom: 10px;
 }
-/* адаптив */
+/* adaptiv */
 @media(max-width:1600px){
     .container_main_cta{
         top: -100px;
