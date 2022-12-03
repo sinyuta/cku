@@ -467,7 +467,7 @@ footer{
 }
 /* ОБЩИЕ КЛАССЫ */
 .title h2{
-    font-family: 'Montserrat';
+    font-family: 'Jura';
     font-style: normal;
     font-weight: 500;
     font-size: 52px;
@@ -855,7 +855,7 @@ section.blog{
     max-height: 5496px;
   }
   /* CHECKPOINT */
-/* .paragraph span.circle_one{
+.paragraph span.circle_one{
     position: absolute;
     width: 50px;
     height: 50px;
@@ -987,7 +987,7 @@ section.blog{
 }
 .main_visual_img{
     position: relative;
-}*/
+}
 .main_visual_img::before{
     content: '';
     position: absolute;
@@ -1372,7 +1372,7 @@ section.contacts{
         left: -110%;
         width: 100%;
         height: 100vh;
-        background: linear-gradient(17.51deg, #47DEFF 0%, rgba(236, 72, 96, 0.32) 100%);
+        background: #6685C1;
         backdrop-filter: blur(10px);
         transition: 1s;
         z-index: 9998;
@@ -1389,7 +1389,7 @@ section.contacts{
         z-index: 9999;
     }
     .mob_menu_burger span{
-        background: linear-gradient(90deg, #90DBDF 0%, #EC4860 100%);
+        background: #6685C1;
         position: absolute;
         z-index: 9999;
         height: 3px;
@@ -1412,11 +1412,13 @@ section.contacts{
         right: 0;
     }
     .mob_menu_burger.-active span:nth-child(1){
+        background: #fff;
         transform: rotate(-135deg);
         width: 100%;
         top: 0;
     }
     .mob_menu_burger.-active span:nth-child(2){
+        background: #fff;
         transform: rotate(135deg);
         top: 0;
     }
@@ -1515,8 +1517,8 @@ section.contacts{
         font-size: 30px;
     }
     section{
-        padding-top: 25px;
-        padding-bottom: 25px;
+        padding-top: 0px;
+        padding-bottom: 0px;
     }
     .title h2{
         font-size: 28px;
@@ -1569,5 +1571,72 @@ section.contacts{
     }
     .page_title_cta_title h1{
         font-size: 30px;
+    }
+    .container_service_row,
+    .container_positev_row{
+        padding-top: 25px;
+    }
+
+    /*  */
+    .service_item{
+        padding: 20px;
+    }
+    .service_item_description h5{
+        font-size: 20px;
+        line-height: normal;
+        padding-top: 20px;
+    }
+    .service_item_link a{
+        font-size: 16px;
+    }
+    .container_information_row{
+        padding-top: 30px;
+    }
+    .positiv .title{
+        text-align: start;
+    }
+    .positiv_item{
+        margin-bottom: 20px;
+    }
+    .positiv_item:nth-child(2),
+    .positiv_item:nth-child(3),
+    .positiv_item:nth-child(4){
+        transform:  translate(0px, 0) rotate(0);
+        margin-bottom: 20px;
+    }
+    .cta_description p{
+        text-align: start;
+        padding-top: 20px;
+    }
+    .cta_form{
+        padding-top: 20px;
+    }
+    section.blog{
+        padding-top: 20px;
+    }
+    .blog .title{
+        text-align: start;
+    }
+    .container_blog_row{
+        padding-top: 20px;
+    }
+    .blog_item{
+        padding-bottom: 20px;
+        margin-bottom: 0;
+    }
+    .blog_item_img{
+        max-height: 270px;
+    }
+    .blog_item_img img{
+        height: 100%;
+    }
+    .blog_item_title h4{
+        font-size: 20px;
+    }
+    .blog_item_link a{
+        font-size: 16px;
+    }
+    section.page{
+        padding-top: 50px;
     }
 }
