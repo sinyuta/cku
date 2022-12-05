@@ -11,7 +11,7 @@ window.addEventListener('DOMContentLoaded', () => {
       easing: 'linear',
       autoplay: false,
       duration: 20000,
-      // loop: true,
+      loop: false,
     });
   
     const scrollPercent = () => {
@@ -24,13 +24,13 @@ window.addEventListener('DOMContentLoaded', () => {
     };
   
     document.addEventListener('scroll', () => {
-      airplane.seek((scrollPercent() / 95) * airplane.duration);
+      airplane.seek((scrollPercent() / 100) * airplane.duration);
       console.log(scrollPercent());
     });
   });
   
 
-SmoothScroll({
+/* SmoothScroll({
     animationTime    : 800,
     stepSize         : 45,
     
@@ -45,7 +45,7 @@ SmoothScroll({
     pulseNormalize   : 1,
 
     touchpadSupport   : true,
-})
+}) */
 
 
 function menuOpen() {
